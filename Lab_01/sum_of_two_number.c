@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int main() {
-    int num1, num2, sum;
+int main()
+{
+    int a;
+    int b;
+    int c;
 
-    // Ask the user for input
-    printf("Enter two integers: ");
-    
-    // Read and store the two integers
-    // The & symbol gets the memory address of the variables
-    scanf("%d %d", &num1, &num2);
+    printf("Enter first number:");
+    scanf("%d", &a);
 
-    // Add the two numbers using the + operator
-    sum = num1 + num2;
+    printf("Enter second number:");
+    scanf("%d", &b);
 
-    // Display the final result
-    printf("%d + %d = %d\n", num1, num2, sum);
+    c = a + b;
+
+    printf("Sum = %d", c);
 
     return 0;
 }
