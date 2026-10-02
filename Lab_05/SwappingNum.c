@@ -2,18 +2,18 @@
 
 int main()
 {
-    int a, b, temp;
+    int a, b, c;
 
-    printf("Enter two numbers: ");
+    printf("Enter two numbers");
     scanf("%d %d", &a, &b);
 
-    printf("Before swapping: a = %d, b = %d\n", a, b);
+    printf("Before a = %d, b = %d\n", a, b);
 
     temp = a;
     a = b;
-    b = temp;
+    b = c;
 
-    printf("After swapping: a = %d, b = %d\n", a, b);
+    printf("After a = %d, b = %d\n", a, b);
 
     return 0;
 }
