@@ -9,7 +9,7 @@ int main()
 
     printf("Before a = %d, b = %d\n", a, b);
 
-    temp = a;
+    c = a;
     a = b;
     b = c;
 
