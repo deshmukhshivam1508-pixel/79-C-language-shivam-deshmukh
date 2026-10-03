@@ -4,7 +4,7 @@ int main()
 {
     int a = 5, b = 3;
 
-    printf("My name is Shivam Deshmukh solve Question 1\n");
+    printf("My name is Shivam Deshmukh solve Question 7\n");
 
     printf("a & b = %d\n", a & b);
     printf("a | b = %d\n", a | b);
