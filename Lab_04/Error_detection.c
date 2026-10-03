@@ -16,7 +16,7 @@ int main()
 {
     int a = 10, b = 20;
 
-    printf("My name is Shivam Deshmukh solve Question 1\n");
+    printf("My name is Shivam Deshmukh solve Question 10\n");
 
     printf("Sum = %d\n", a + b);
 
