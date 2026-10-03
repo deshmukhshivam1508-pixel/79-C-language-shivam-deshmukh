@@ -13,8 +13,9 @@ int main()
     scanf("%d", &b);
 
     c = a + b;
- 
-    printf("Sum = %d", c);
+
     printf("My name is Shivam Deshmukh solve Question 1\n");
+    printf("Sum = %d", c);
+    
     return 0;
 }
