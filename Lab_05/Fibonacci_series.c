@@ -7,18 +7,14 @@ int main()
     printf("Enter the number of Fibonacci series print: ");
     scanf("%d", &n);
 
-    printf("Fibonacci Series\n");
+    printf("Fibonacci Series: ");
 
     for (int i = 1; i <= n; ++i)
     {
-        printf("%d\n", num1);
+        printf("%d ", num1);
 
         nextnum = num1 + num2;
-        printf("%d\n", nextnum);
-
         num1 = num2;
-        printf("%d\n", num2);
-
         num2 = nextnum;
     }
 
