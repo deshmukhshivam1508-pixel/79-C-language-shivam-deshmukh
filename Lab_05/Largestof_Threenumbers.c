@@ -6,7 +6,7 @@ int main()
     int b = 5;
     int c = 16;
 
-    printf("My name is Shivam Deshmukh solve Question 1\n");
+    printf("My name is Shivam Deshmukh solve Question 13\n");
     
     if (a > b)
     {
