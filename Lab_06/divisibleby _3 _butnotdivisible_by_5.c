@@ -5,7 +5,7 @@ int main()
 {
     int n, i, count = 0;
 
-    printf("my name is Shivam Deshmukh solve Question 18 ");
+    printf("my name is Shivam Deshmukh solve Question 18\n");
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
